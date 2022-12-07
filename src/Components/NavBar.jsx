@@ -14,7 +14,7 @@ function NavBar() {
             <div onClick={() => setNav(!nav)} className="cursor-pointer text-white mr-3">
                <AiOutlineMenu size={30} />
             </div>
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2 text-white">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2 text-white font-vollkorn">
                Best <span className="font-bold font-librebaskerville text-brightOrange">Eats</span>
             </h1>
             <div className="hidden lg:flex items-center justify-center bg-gray-200 rounded-full p-1 text-[14px] ml-10">
@@ -41,7 +41,7 @@ function NavBar() {
                Best <span className="font-extrabold font-librebaskerville text-brightOrange">Eats</span>
             </h2>
             <nav>
-               <ul className="flex flex-col p-5 text-gray-800 font-librebaskerville">
+               <ul className="flex flex-col p-5 text-gray-800">
                   <li className='flex py-4 text-xl cursor-pointer'><TbTruckDelivery size={25} className='mr-4' /> Orders</li>
                   <li className='flex py-4 text-xl cursor-pointer'><MdFavorite size={25} className='mr-4' /> Favorites</li>
                   <li className='flex py-4 text-xl cursor-pointer'><FaWallet size={25} className='mr-4' /> Wallet</li>

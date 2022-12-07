@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar';
 
 function App() {
   return (
-    <div className='bg-darkBackground h-full'>
+    <div className='bg-darkBackground h-full font-crimson tracking-wide'>
       <NavBar />
       <Hero />
       <Card />

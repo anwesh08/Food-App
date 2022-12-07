@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card() {
   return (
-    <div className='max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6'>
+    <div className='max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-10'>
       {/* Card 1*/}
       <div className='rounded-xl relative hover:scale-105 duration-300 ease-in-out'>
          {/* Overlay */}

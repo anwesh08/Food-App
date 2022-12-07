@@ -48,12 +48,12 @@ function Foods() {
          {/* Display Foods */}
          <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 pt-8'>
             {foods.map((items, index) => (
-               <div key={index} className='rounded-xl border shadow-md shadow-gray-200 bg-offWhite hover:scale-105 duration-300 ease-in-out'>
+               <div key={index} className='rounded-xl border bg-offWhite hover:scale-105 duration-300 ease-in-out'>
                   <img className='rounded-t-xl w-full h-[250px] object-cover' src={items.image} alt={items.name} />
-                  <div className='flex justify-between px-6 py-4'>
-                     <p className='font-bold text-black text-xl font-vollkorn'>{items.name}</p>
+                  <div className='flex justify-between px-6 py-4 font-vollkorn'>
+                     <p className='font-bold text-black text-xl'>{items.name}</p>
                      <p>
-                        <span className='bg-brightOrange text-white rounded-full px-3 font-semibold font-vollkorn tracking-wider'>{items.price}</span>
+                        <span className='bg-brightOrange text-white rounded-full px-3 font-semibold tracking-wider'>{items.price}</span>
                      </p>
                   </div>
                </div>
